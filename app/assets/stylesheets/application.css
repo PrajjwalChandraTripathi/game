@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav {
+    background-color: #3325af;
+    color: black;
+    height: 65px;
+    font-size: 27px;
+    display: flex;
+    align-items: center;
+    padding: 0 12px;
+
+}
+nav ul{
+    list-style-type: none;
+}
+ 
+.matchContainer{
+       background: #c47d94;
+       display :flex;
+       justify-content: center;
+       margin-top: 50 px;
+}
+
+.container{
+    display: grid;
+    grid-template-rows:repeat(3, 15vw) ;
+    grid-template-columns: repeat(3, 15vw);
+}
+
+.container div{
+    border: 2px solid black;
+    font-size: 8vw;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grids:hover{
+    background-color: aqua;
+}
+
+.matchinfo{
+	margin: 240px;
+    padding: 0 45px;
+}
+
+.br-0{
+    border-right: 0;
+}
+.bl-0{
+    border-left: 0;
+}
+.bt-0{
+    border-top: 0;
+}
+.bb-0{
+    border-bottom: 0;
+}
+
+#restart {
+    margin: 50px ;
+    padding: 5px 20px;
+    background: #c47d94;
+}
+.details{
+    font-size: 35px;
+    margin: 25px
+
+
+}
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
